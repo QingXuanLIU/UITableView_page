@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor scrollViewTexturedBackgroundColor]];
     self.myTableView.dataSource=self;
     self.myTableView.delegate=self;
     items=[[NSMutableArray alloc] initWithCapacity:0];
