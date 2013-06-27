@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    aaa
     self.myTableView.dataSource=self;
     self.myTableView.delegate=self;
     items=[[NSMutableArray alloc] initWithCapacity:0];
